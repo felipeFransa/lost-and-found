@@ -14,20 +14,20 @@ export const Header = () => {
                 <div className='text-3xl'>Lost and found</div>
             </div>
             <div className="w-96 hidden sm:flex justify-between">
-                <div className="w-12 h-12 flex justify-center items-center rounded-md">
-                    <Image src={Home} alt='Home' width={100} height={100} />
+                <div className="w-12 h-12 flex justify-center items-center hover:cursor-pointer rounded-md">
+                    <Image src={Home} alt='Home' width={40} height={40} />
                 </div>
-                <div className="w-12 h-12 flex justify-center items-center rounded-md">
-                    <Image src={Email} alt='Email' width={100} height={100} />
+                <div className="w-12 h-12 flex justify-center items-center hover:cursor-pointer rounded-md">
+                    <Image src={Email} alt='Email' width={40} height={40} />
                 </div>
-                <div className="w-12 h-12 flex justify-center items-center rounded-md">
-                    <Image src={Config} alt='config' width={100} height={100} />
+                <div className="w-12 h-12 flex justify-center items-center hover:cursor-pointer rounded-md">
+                    <Image src={Config} alt='config' width={40} height={40} />
                 </div>
-                <div className="w-12 h-12 flex justify-center items-center rounded-md">
-                    <Image src={Cart} alt='Cart' width={100} height={100} />
+                <div className="w-12 h-12 flex justify-center items-center hover:cursor-pointer rounded-md">
+                    <Image src={Cart} alt='Cart' width={40} height={40} />
                 </div>
-                <div className="w-12 h-12 flex justify-center items-center rounded-md">
-                    <Image src={User} alt='User' width={100} height={100} />
+                <div className="w-12 h-12 flex justify-center items-center hover:cursor-pointer rounded-md">
+                    <Image src={User} alt='User' width={40} height={40} />
                 </div>
             </div> 
         </div>
