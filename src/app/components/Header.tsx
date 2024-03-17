@@ -7,13 +7,13 @@ import User from "@/app/img/icons/user.svg";
 
 export const Header = () => {
     return (
-        <div className="w-full h-24 flex justify-around items-center bg-white">
-            <div className="w-96 h-12 flex justify-center items-center bg-black rounded-md">
-                <div className='text-3xl'>E-commerce Feelps</div>
+
+        <div className='w-full flex justify-center items-center my-3'>
+        <div className="w-96 h-24 flex justify-center items-center rounded-md bg-gradient-to-r from-sky-500 to-indigo-500">
+            <div className="w-96 h-12 flex justify-center items-center">
+                <div className='text-3xl'>E-commerce Felipe</div>
             </div>
-
-
-            <div className="w-96 flex justify-between">
+            <div className="w-96 hidden justify-between">
                 <div className="w-12 h-12 flex justify-center items-center rounded-md">
                     <Image src={Home} alt='Home' width={100} height={100} />
                 </div>
@@ -29,7 +29,8 @@ export const Header = () => {
                 <div className="w-12 h-12 flex justify-center items-center rounded-md">
                     <Image src={User} alt='User' width={100} height={100} />
                 </div>
-            </div>
+            </div> 
+        </div>
         </div>
     )
 }
