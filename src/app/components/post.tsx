@@ -1,7 +1,7 @@
 export const Post = () => {
     return (
         <div className="w-full flex justify-center items-center">
-            <div className="w-96 h-96 flex">
+            <div className="w-96 h-96 sm:w-full flex">
             <div className="w-96 h-96 flex flex-col justify-between items-center rounded-md">
 
 
