@@ -6,16 +6,12 @@ import { Post } from "@/app/components/post"
 
 export default function Home() {
   return (
-    <div className="container">
+    <div className="">
         <Header />
         <NewPost />
-      {/* <div className="flex justify-center bg-white">
+        <Post />
         <UserCard />
         <Adverts />
-      </div> */}
-      {/* <div className="flex justify-center bg-white">
-        <Post />
-      </div> */}
     </div>
   );
 }
